@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Heart : MonoBehaviour
 {
+
     [SerializeField] private GameObject game;
     [SerializeField] private GameObject lose;
 
@@ -15,4 +16,5 @@ public class Heart : MonoBehaviour
             
         }
     }
+
 }
